@@ -18,7 +18,7 @@
 PRODUCT_RELEASE_NAME := odessa
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := odessa
@@ -29,3 +29,5 @@ PRODUCT_MANUFACTURER := motorola
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)/device.mk)
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)

@@ -135,6 +135,7 @@ BOARD_MOTOROLA_DYNAMIC_PARTITIONS_PARTITION_LIST := product system vendor
 
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_RECOVERY_FSTAB_FILE := device/motorola/odessa/recovery/root/system/etc/recovery.fstab
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"

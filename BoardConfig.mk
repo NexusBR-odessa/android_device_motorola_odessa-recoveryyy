@@ -252,7 +252,7 @@ TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/battery"
 TW_BATTERY_SYSFS_WAIT_SECONDS := 5
 
 # Kernel module loading for touch, battery etc
-TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/vendor/lib/modules\")
+TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/vendor/lib/modules)\")
 TW_LOAD_VENDOR_BOOT_MODULES := true
 
 # Debug flags

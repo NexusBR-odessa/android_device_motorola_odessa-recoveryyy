@@ -268,3 +268,19 @@ BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+
+# SkyHawk Specific Build Flags
+SHRP_PATH := $(DEVICE_PATH)
+SHRP_OFFICIAL := true
+SHRP_MAINTAINER := "Miguel Barreto"
+SHRP_DEVICE_CODE := odessa
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
+SHRP_NOTCH := true
+SHRP_EXPRESS := true
+SHRP_DARK := true
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/bootdevice/by-name/recovery

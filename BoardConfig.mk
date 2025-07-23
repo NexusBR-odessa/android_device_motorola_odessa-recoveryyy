@@ -158,7 +158,8 @@ TARGET_RECOVERY_DEVICE_MODULES += \
     vendor.display.config@1.0 \
     vendor.display.config@2.0 \
     android.hardware.boot@1.0 \
-    android.hardware.boot@1.1
+    android.hardware.boot@1.1 \
+    libfscrypttwrp
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
